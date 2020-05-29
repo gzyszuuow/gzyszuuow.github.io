@@ -4,21 +4,16 @@
   icon: /img/font-awesome/envelope.svg
   contact_order: 0
 
-- text: Twitter
-  alternative: twitter/ptheywood
-  url: https://twitter.com/ptheywood/
+- text: Homepage
+  alternative: Homepage/Zengyang
+  url: https://gzyszuuow.github.io/
   icon: /img/twitter/Twitter_logo_blue.svg
   contact_order: 1
 
 - text: Github
-  alternative: github/ptheywood
+  alternative: github/Zengyang
   url: https://github.com/ptheywood/
   icon: /img/github/github_mark.svg
   contact_order: 2
 
-- text: GitLab
-  alternative: gitlab/ptheywood
-  url: https://gitlab.com/ptheywood/
-  icon: /img/gitlab/gitlab_logo_square.svg
-  contact_order: 3
 
