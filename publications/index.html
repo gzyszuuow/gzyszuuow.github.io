@@ -56,8 +56,6 @@ title: Publications | ptheywood.uk
 <section id="publications">
         <h2 class="sub-header">Publications</h2>
         <ul class="pt-list publication-list">
-        {% assign sorted_publication_years = site.data.publications | sort: 'year' %}
-        {% for year in sorted_publication_years reversed %}
             <li>
                 <h3>2020</h3>
                 <ul>
@@ -71,24 +69,10 @@ title: Publications | ptheywood.uk
                         <p class="publication">
                             IEEE ICDE, Dallas, Texas, USA, April 2020
                         </p>
-                        <p class="publication">
-                            {% if publication.note %}
-                                {{ publication.note }}
-                            {% endif %}
-                        </p>
-                        {% if publication.href %}
-                            <a class="button" href="{{ publication.href }}" target="_blank">View</a>
-                        {% endif %}
-                        {% if publication.pdf %}
-                            <a class="button" href="{{ publication.pdf }}" target="_blank">PDF</a>
-                        {% endif %}
-                        {% if publication.bib %}
-                            <a class="button" href="{{ publication.bib }}" target="_blank">bib</a>
-                        {% endif %}
                     </li>
-                {% endfor %}
+
                 </ul>
             </li>
-        {% endfor %}
+
         </ul>
     </section>
