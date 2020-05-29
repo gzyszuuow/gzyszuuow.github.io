@@ -1,6 +1,6 @@
 - text: Email
-  alternative: p.heywood@sheffield.ac.uk
-  url: mailto:p.heywood@sheffield.ac.uk
+  alternative: gongzengyang2017@email.szu.edu.cn
+  url: mailto:gongzengyang2017@email.szu.edu.cn
   icon: /img/font-awesome/envelope.svg
   contact_order: 0
 
@@ -12,7 +12,7 @@
 
 - text: Github
   alternative: github/Zengyang
-  url: https://github.com/ptheywood/
+  url: https://gzyszuuow.github.io/
   icon: /img/github/github_mark.svg
   contact_order: 2
 
