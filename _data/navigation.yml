@@ -4,17 +4,24 @@
 - text: "Publications"
   url: "/publications/"
   
-- text: "Talks"
-  url: "/talks/"
+#- text: "Talks"
+#  url: "/talks/"
 
-- text: "Posters"
-  url: "/posters/"
+#- text: "Posters"
+#  url: "/posters/"
 
-- text: "Demonstrating"
-  url: "/demonstrating/"
+#- text: "Demonstrating"
+#  url: "/demonstrating/"
 
 # - text: "Posts"
 #   url: "/posts/"
+
+- text: "Awards"
+  url: "/awards/"
+
+- text: "Experiences"   #demonstrating
+  url: "/experiences/"
+
 
 - text: "Contact"
   url: "/contact/"
