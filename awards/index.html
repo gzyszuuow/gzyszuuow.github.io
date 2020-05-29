@@ -1,52 +1,73 @@
 ---
 layout: default
-title: Publications | ptheywood.uk
+title: Awards | Zengyang
 ---
-
-<section id="publications">
-    <h2 class="sub-header">Publications</h2>
-    <ul class="pt-list publication-list">
-    {% assign sorted_publication_years = site.data.publications | sort: 'year' %}
-    {% for year in sorted_publication_years reversed %}
+<!--
+<section>
+    <h2 class="sub-header">Demonstrating</h2>
+    <p>
+        As a PhD student I have the opportunity to demonstrate lab sessions for taught students and outreach events.
+    </p>
+    <ul class="demonstrating-list">
+    {% for year in site.data.demonstrating %}
         <li>
             <h3>{{ year.year }}</h3>
             <ul>
-            {% assign sorted_publication = year.publications | sort: 'date' %}
-            {% for publication in sorted_publication reversed %}
+                {% for event in year.events %}
                 <li>
-                    <h4>
-                        {% if publication.title %}
-                            "{{ publication.title }}"
-                        {% endif %}
-                    </h4>
-                    <h5>
-                        {% if publication.authors %}
-                            {{ publication.authors }}
-                        {% endif %}
-                    </h5>
-                    <p class="publication">
-                        {% if publication.journal %}
-                            {{ publication.journal }}
-                        {% endif %}
-                    </p>
-                    <p class="publication">
-                        {% if publication.note %}
-                            {{ publication.note }}
-                        {% endif %}
-                    </p>
-                    {% if publication.href %}
-                        <a class="button" href="{{ publication.href }}" target="_blank">View</a>
-                    {% endif %}
-                    {% if publication.pdf %}
-                        <a class="button" href="{{ publication.pdf }}" target="_blank">PDF</a>
-                    {% endif %}
-                    {% if publication.bib %}
-                        <a class="button" href="{{ publication.bib }}" target="_blank">bib</a>
-                    {% endif %}
+                    {{ event }}
                 </li>
-            {% endfor %}
+                {% endfor %}
             </ul>
         </li>
     {% endfor %}
     </ul>
 </section>
+-->
+
+<section>
+        <h2 class="sub-header">Awards</h2>
+        <ul class="demonstrating-list">
+            <!-- 2019 Awards*************************************************** -->
+            <li>
+                <h3>2019</h3>
+                <ul>
+
+                    <li>
+                        Student Overseas Exchange Study Scholarship, SZU
+                    </li>
+                    <li>
+                        First-class Postgraduate Studies Scholarship(TOP 20%), SZU
+                    </li>
+
+                </ul>
+            </li>
+            <!-- *************************************************** -->
+
+            <!-- 2017 Awards*************************************************** -->
+            <li>
+                <h3>2017</h3>
+                <ul>
+                    <li>
+                        First-class Academic Scholarship (TOP 20%), SZU
+                    </li>    
+                </ul>
+            </li>
+            <!-- *************************************************** -->
+
+            <!-- Before 2017 *************************************************** -->
+            <li>
+                <h3>Before 2017</h3>
+                <ul>
+                    <li>
+                        Third-class team award, Microsoft Imagine Cup, WUST Division
+                    </li>
+                    <li>
+                        Outstanding student, Computer Organization Summer School, WUST
+                    </li>      
+                </ul>
+            </li>
+                <!-- *************************************************** -->
+
+        </ul>
+    </section>
